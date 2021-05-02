@@ -1,0 +1,240 @@
+body{
+  background: url(fondo.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.titulo{
+		position: absolute;
+	width: 90%;
+	height: 25%;
+	top: 4%;
+	left: 5%;
+		background-color: rgba(51, 255, 153 ,.3);
+  border: orange 5px solid;
+  	font-family:castellar;
+font-size:30px;
+color:orange;
+font-style: italic;
+text-align: center;
+text-shadow: 
+}
+
+.texto1{
+
+		position: absolute;
+	width: 40%;
+	height: 40%;
+	top: 35%;
+	left: 5%;
+		background-color: rgba(51, 255, 153 ,.3);
+  border: orange 5px solid;
+  	font-family:castellar;
+font-size:18px;
+color:black;
+font-style: ;
+text-align: center;
+text-shadow: 
+}
+
+.texto2{
+
+		position: absolute;
+	width: 40%;
+	height: 40%;
+	top: 35%;
+	left: 55%;
+		background-color: rgba(51, 255, 153 ,.3);
+  border: orange 5px solid;
+  	font-family:castellar;
+font-size:18px;
+color:black;
+font-style: ;
+text-align: center;
+text-shadow: 
+
+}
+
+
+.foto{
+
+		position: absolute;
+	width: 62%;
+	height: 30%;
+	top: 80%;
+	left: 20%;
+  border: orange 5px solid;
+background-repeat: no-repeat;
+background-image: url('gui.jpg');
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+
+
+            @media only screen and (max-width:900px )
+            {
+            	.titulo
+            	{
+            	
+   	width: 70%;
+	height: 25%;
+	top: 4%;
+	left: 15%;
+		background-color: rgba(51, 255, 153 ,.3);
+  border: orange 5px solid;
+  	font-family:castellar;
+font-size:25px;
+color:white;
+font-style: italic;
+text-align: center;
+text-shadow: 
+            	}
+
+    }
+            
+            @media only screen and (max-width:900px )
+            {
+            	.texto1
+            	{
+            		
+		position: absolute;
+	width: 45%;
+	height: 36%;
+	top: 35%;
+	left: 28%;
+		background-color: rgba(51, 255, 153 ,.3);
+  border: orange 5px solid;
+  	font-family:castellar;
+font-size:15px;
+color:black;
+font-style: ;
+text-align: center;
+text-shadow: 
+            	}
+
+
+    }
+
+            @media only screen and (max-width:900px )
+            {
+            	.texto2
+            	{
+            		display:none;
+            	}
+
+    }
+
+    @media only screen and (max-width:900px )
+            {
+            	.foto
+            	{
+            			position: absolute;
+	width: 45%;
+	height: 36%;
+	top: 75%;
+	left: 28%;
+  border: orange 5px solid;
+background-repeat: no-repeat;
+background-image: url('gui2.jpg');
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+            	}
+}
+
+
+
+
+
+            @media only screen and (max-width:600px )
+            {
+              .titulo
+              {
+              
+    width: 70%;
+  height: 25%;
+  top: 4%;
+  left: 15%;
+    background-color: rgba(51, 255, 153 ,.3);
+  border: orange 5px solid;
+    font-family:castellar;
+font-size:20px;
+color:black;
+font-style: italic;
+text-align: center;
+text-shadow: 
+              }
+
+    }
+            
+            @media only screen and (max-width:600px )
+            {
+              .texto1
+              {
+                
+    position: absolute;
+  width: 70%;
+  height: 24%;
+  top: 32%;
+  left: 15%;
+    background-color: rgba(51, 255, 153 ,.3);
+  border: orange 5px solid;
+    font-family:castellar;
+font-size:13px;
+color:black;
+font-style: ;
+text-align: center;
+text-shadow: 
+              }
+
+
+    }
+
+            @media only screen and (max-width:600px )
+            {
+              .texto2
+              {
+                display: block;
+                 position: absolute;
+  width: 70%;
+  height: 24%;
+  top: 60%;
+  left: 15%;
+    background-color: rgba(51, 255, 153 ,.3);
+  border: orange 5px solid;
+    font-family:castellar;
+font-size:13px;
+color:black;
+font-style: ;
+text-align: center;
+              }
+
+    }
+
+    @media only screen and (max-width:600px )
+            {
+              .foto
+              {
+                  position: absolute;
+  width: 70%;
+  height: 30%;
+  top: 88%;
+  left: 15%;
+  border: orange 5px solid;
+background-repeat: no-repeat;
+background-image: url('gui3.jpg');
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+              }
+}
+
+
+    
